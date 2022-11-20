@@ -1,0 +1,6 @@
+name : myAction
+
+on:
+  push:
+    branches:
+      master
