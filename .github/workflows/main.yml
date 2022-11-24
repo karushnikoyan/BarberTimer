@@ -1,0 +1,12 @@
+name : my-github-action
+on:
+  push:
+    branches:
+      -master
+jobs :
+  myTestName:
+    steps:
+      - uses: actions/checkout@v1
+      - name
+        runs-on : |
+           eco 'hello world'
