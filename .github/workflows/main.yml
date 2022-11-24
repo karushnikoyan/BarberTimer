@@ -4,10 +4,12 @@ on:
   push:
     branches:
       -master
+      
+      
 jobs :
   myTestName:
     runs-on : ubuntu-latest
 
     steps:
       - name : my hello world prin
-        run : eco 'hello world'
+        run : eco "hello World"
