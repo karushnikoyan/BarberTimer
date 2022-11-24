@@ -1,6 +1,23 @@
-name : myAction
-
+name : my-github-action
 on:
   push:
     branches:
-      master
+      -master
+
+
+jobs :
+  myTestName:
+  my_Test_Name:
+    runs-on : ubuntu-latest
+
+    steps:
+      - name : my hello world prin
+        run : eco "hello World"
+        run : echo "hello World"
+
+  myTestdeploy:
+    runs-on : ubuntu-latest
+
+    steps:
+      - name : my hello world prin
+        run : echo "hello World"
