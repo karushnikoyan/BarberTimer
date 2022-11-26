@@ -8,7 +8,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: cond 1
-        if: runner.os == 'windows'
+        if: runner.os == 'Windows'
         run: echo "The operation system is $RUNNER_OS."
       - name: cond 2
         if: runner.os != 'Windows'
