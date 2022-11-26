@@ -3,7 +3,7 @@ name : my-github-action
 on:
   push:
     branches:
-      -master
+      -main
       
       
 jobs :
