@@ -12,7 +12,10 @@ jobs:
       - id: step1
         run: echo "test=hello" >> $GITHUB_OUTPUT
       - id : step2
-        run: echo ${{steps.step1.outputs.test}}
+        run: |
+          echo ${{steps.step1.outputs.test}}
+          echo ${{steps.step1.outputs.test >> "Karush"}}
+
         
   job2: 
     runs-on: ubuntu-latest
