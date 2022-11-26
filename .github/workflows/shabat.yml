@@ -1,0 +1,16 @@
+name: shabat or
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    
+    steps:
+     - name: myaction name
+       uses: action/checkout@v2
+    
+     - name: myjob
+       run : echo"hello world"
+  
