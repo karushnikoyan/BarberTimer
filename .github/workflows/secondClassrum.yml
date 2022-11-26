@@ -1,0 +1,17 @@
+
+name: classroom second
+on:
+  push:
+    branches: [main]
+jobs:
+  if-Windows-else:
+    runs-on: ubuntu-latest
+    steps:
+      - name: cond 1
+        if: runner.os == 'windows'
+        run: echo "The operation system is $RUNNER_OS."
+      - name: cond 2
+        if: runner.os != 'Windows'
+        run: echo"The operation system is not Windows is it is $RUNNER_OS."
+  
+  
