@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81791742874",
+    "project_id": "barbertimer",
+    "storage_bucket": "barbertimer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81791742874:android:f8d48887fa9eaa6a6c8023",
+        "android_client_info": {
+          "package_name": "com.example.revers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81791742874-3hh4lt72v4s0urb6udgmlbdt0jt5nuii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjDkQVESOBbXn--mCpmm1KAmCTE3HTscA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81791742874-3hh4lt72v4s0urb6udgmlbdt0jt5nuii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
