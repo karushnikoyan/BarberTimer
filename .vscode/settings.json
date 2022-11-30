@@ -1,0 +1,14 @@
+{
+    "dart.additionalAnalyzerFileExtensions": [
+        "/Users/karushnikoyan/Development/flutter/bin/cache/dart-sdk"
+    ],
+    "dart.flutterAdditionalArgs": [
+        "/Users/karushnikoyan/Development/flutter"
+    ],
+    "dart.flutterSdkPaths": [
+        "/Users/karushnikoyan/Desktop/Android Studio.app/Contents/jre/Contents/Home"
+    ],
+    "dart.sdkPaths": [
+        "/Users/karushnikoyan/Development/flutter/bin/cache/dart-sdk"
+    ]
+}
