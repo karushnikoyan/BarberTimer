@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:revers/screens/user/user_sign_in_screen.dart';
 
 import 'screens/barber/barber_sign_in_screen.dart';
+import 'screens/user/user_sign_in_screen.dart';
 
 class ChoiceScreen extends StatefulWidget {
   const ChoiceScreen({Key? key}) : super(key: key);
@@ -45,7 +45,13 @@ class _ChoiceScreenState extends State<ChoiceScreen> {
                         ),
                       ),
                       child: Icon(Icons.account_circle,size: 60,
+
                         color: Colors.white70
+
+
+
+
+
 
                         ,),
                     ),
