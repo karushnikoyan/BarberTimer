@@ -13,7 +13,7 @@ jobs:
     - name: 'Sending SMS Notification'
       uses: twilio-labs/actions-sms@v1
       with:
-        fromPhoneNumber: '+1(234)5678901'
+        fromPhoneNumber: '+37498155474'
         toPhoneNumber: '+37433777992'
         message: 'Hello from Twilio MR. Karush'
       env:
