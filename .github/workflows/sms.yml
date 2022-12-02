@@ -17,7 +17,7 @@ jobs:
         toPhoneNumber: '+37433777992'
         message: 'Hello from Twilio MR. Karush'
       env:
-        TWILIO_ACCOUNT_SID: ${{'SK8fccd1f097191bb71f7c08ce94bc3134'}}
+        TWILIO_ACCOUNT_SID: ${{'ACdcad635841ca77a1091c464f758793d3'}}
         TWILIO_API_KEY: ${{'[Standard]'}}
         TWILIO_API_SECRET: ${{'pumdJZPkXAZkI2V6AJLuYJnCF0aaAdU1'}}
     
