@@ -1,9 +1,5 @@
 name: go hello world 
 
-# on: 
-#   push:
-#     branches:
-#       - master
 
 on:
   workflow_dispatch:
@@ -37,8 +33,3 @@ jobs:
       - name: Run go file
         run: go run main.go
 
-      # - name: Build
-      #   run: go build -v ./...
-
-      # - name: Test
-      #   run: go test -v ./...
