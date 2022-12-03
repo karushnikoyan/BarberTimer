@@ -4,7 +4,6 @@ on:
     branches:
       -master
 
-
 jobs :
   myTestName:
   my_Test_Name:
@@ -12,8 +11,7 @@ jobs :
 
     steps:
       - name : my hello world prin
-        run : eco "hello World"
-        run : echo "hello World"
+         run : eco "hello World"
 
   myTestdeploy:
     runs-on : ubuntu-latest
